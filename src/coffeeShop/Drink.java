@@ -16,28 +16,28 @@ public abstract class Drink {
         return name;
     }
 
-    public String getSize() {
-
-        return size;
-    }
-
-    public double getPrice() {
-
-        return price;
-    }
-
-    public void setName(String name) {
-
-        this.name = name;
-    }
-    public void setSize(String size) {
-        this.size = size;
-    }
-
-    public void setPrice(double price) {
-
-        this.price = price;
-    }
+//    public String getSize() {
+//
+//        return size;
+//    }
+//
+//    public double getPrice() {
+//
+//        return price;
+//    }
+//
+//    public void setName(String name) {
+//
+//        this.name = name;
+//    }
+//    public void setSize(String size) {
+//        this.size = size;
+//    }
+//
+//    public void setPrice(double price) {
+//
+//        this.price = price;
+//    }
 
     abstract void prepare();
 

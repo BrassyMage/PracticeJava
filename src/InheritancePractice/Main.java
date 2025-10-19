@@ -12,14 +12,16 @@ public class Main {
         System.out.print("Student ID: ");
         student.setStudentID(scanner.next());
 
+        scanner.nextLine();
         System.out.print("First Name: ");
-        student.setFirst_name(scanner.next());
+        student.setFirst_name(scanner.nextLine());
 
         System.out.print("Last Name: ");
-        student.setLast_name(scanner.next());
+        student.setLast_name(scanner.nextLine());
 
         System.out.print("Year Started: ");
         student.setYearStarted(scanner.nextInt());
+        System.out.println();
 
         student.displayDetails();
         scanner.close();

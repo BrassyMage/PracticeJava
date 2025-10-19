@@ -11,7 +11,7 @@ public abstract class MenuItem {
 
      abstract void prepare();
 
-    public String displayInfo(){
+    void displayInfo(){
         System.out.println("---Menu---");
         System.out.println("Name: " + name);
         System.out.println("Price: " + price);

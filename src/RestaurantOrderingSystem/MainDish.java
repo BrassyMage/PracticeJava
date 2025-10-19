@@ -3,13 +3,6 @@ package RestaurantOrderingSystem;
 public class MainDish extends MenuItem{
     private String mainIngredient;
 
-    public MainDish(String name, double price, String mainIngredient) {
-        super(name, price);
-        this.mainIngredient = mainIngredient;
-    }
-    public String getMainIngredient() {
-        return mainIngredient;
-    }
     public void setMainIngredient(String mainIngredient) {
         this.mainIngredient = mainIngredient;
     }
@@ -21,8 +14,10 @@ public class MainDish extends MenuItem{
 
     @Override
     public void displayInfo(){
+        System.out.println("Main Dish Info:");
         super.displayInfo();
         System.out.println("Main Dish Ingredient: "+mainIngredient);
+        System.out.println("-------");
     }
 }
 

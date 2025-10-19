@@ -4,15 +4,10 @@ public abstract class MenuItem {
     private String name;
     private double price;
 
-    public MenuItem(String name, double price) {
-        this.name = name;
-        this.price = price;
-    }
 
      abstract void prepare();
 
     void displayInfo(){
-        System.out.println("---Menu---");
         System.out.println("Name: " + name);
         System.out.println("Price: " + price);
     }
